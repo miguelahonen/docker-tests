@@ -8,4 +8,5 @@ const connectToDatabase = () => {
   return dummyPromise;
 };
 
+// Carefully add exports, only if really needed
 export default connectToDatabase;
